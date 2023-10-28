@@ -1,0 +1,302 @@
+{
+    "products": [
+        {
+            "name": "9' 8\" Longboard",
+            "price": 500,
+            "category": "Boards & Boats",
+            "ownerName": "Max Smith",
+            "ownerEmail": "max.smith@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "This 9'8\" board is perfect for anyone looking to get into longboarding. Its single concave keeps this board right in the pocket of the wave and will give you the platform you need to improve your surfing",
+            "photoUrl": "board1.jpg"
+        },
+        {
+            "name": "6' 10\" Magic Shot Egg",
+            "price": 350,
+            "category": "Boards & Boats",
+            "ownerName": "James Mitchell",
+            "ownerEmail": "james.mitchell@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Fun board to ride in chop and on bigger days",
+            "photoUrl": "board2.jpg"
+        },
+        {
+            "name": "Ocean Kayak Tetra",
+            "price": 275,
+            "category": "Boards & Boats",
+            "ownerName": "Meghan Taylor",
+            "ownerEmail": "meghan.taylor@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Selling 2 orange sea kayaks. Still in perfect condition, used only twice. $150 each or $275 for both",
+            "photoUrl": "board3.jpg"
+        },{
+            "name": "Inflatable Paddle Board",
+            "price": 215,
+            "category": "Boards & Boats",
+            "ownerName": "Olivia Hall",
+            "ownerEmail": "olivia.hall@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Inflatable paddle board great for day adventures in the harbor or lake. Sold with paddle",
+            "photoUrl": "board4.jpg"
+        },
+        {
+            "name": "Windsurf board + sail",
+            "price": 350,
+            "category": "Boards & Boats",
+            "ownerName": "Laura Smith",
+            "ownerEmail": "laura.smith@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Selling my dads windsurfing kit, well-loved, but still in working condition for someone looking to get into windsurfing",
+            "photoUrl": "board5.jpg"
+        },
+        {
+            "name": "Dinghy Tender ",
+            "price": 735,
+            "category": "Boards & Boats",
+            "ownerName": "Christopher Brown",
+            "ownerEmail": "christopher.brown@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Inflatable RIB tender with 10hp outboard. Engine runs smooth and only 2 seasons old",
+            "photoUrl": "board6.jpg"
+        },{
+            "name": "5' 11\" Shortboard & leash",
+            "price": 195,
+            "category": "Boards & Boats",
+            "ownerName": "David Miller",
+            "ownerEmail": "david.miller@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Selling shortboard to buy longboard. Trades welcome. Looking to get rid of quick",
+            "photoUrl": "board7.jpg"
+        },
+        {
+            "name": "6 Person River Raft",
+            "price": 500,
+            "category": "Boards & Boats",
+            "ownerName": "William Baker",
+            "ownerEmail": "william.baker@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "This 6 person raft is in great condition, but I don't use it enough and looking for someone who loves the sport to take it off my hands. $500 OBO",
+            "photoUrl": "board8.jpg"
+        },
+        {
+                "name": "Hand-crafted Row Boat",
+                "price": 330,
+                "category": "Boards & Boats",
+                "ownerName": "Brian Parker",
+                "ownerEmail": "brian.parker@gmail.com",
+                "ownerPhone": "123-456-7890",
+                "description": "I hand made this row boat a few years ago and looking to clear out some storage space in my garage. Perfect tender for smaller boats",
+                "photoUrl": "board9.jpg"
+        },
+        {
+            "name": "Axis Foil board",
+            "price": 900,
+            "category": "Boards & Boats",
+            "ownerName": "Peter Turner",
+            "ownerEmail": "peter.turner@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Bought this foil board a few years ago, but ready for something different. Still in perfect condition.",
+            "photoUrl": "board10.jpg"
+        },
+        {
+            "name": "Womens 3:2 wetsuit SMALL",
+            "price": 120,
+            "category": "Wetsuits",
+            "ownerName": "Jessica Ross",
+            "ownerEmail": "jessica.ross@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Bought last year, never worn, great summer and fall wetsuit",
+            "photoUrl": "wetsuit1.jpg"
+        },
+        {
+            "name": "Mens 3:2 Onyx Wetsuit Medium",
+            "price": 65,
+            "category": "Wetsuits",
+            "ownerName": "Philip Murphy",
+            "ownerEmail": "philip.murphy@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Great spearfishing wetsuit",
+            "photoUrl": "wetsuit2.jpg"
+        },
+        {
+            "name": "Orca Alpha Triathlon Wetsuit",
+            "price": 99,
+            "category": "Wetsuits",
+            "ownerName": "Eric Wilson",
+            "ownerEmail": "eric.wilson@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Triathlon Wetsuit in good condition. Looking to sell quickly",
+            "photoUrl": "wetsuit3.jpg"
+        },
+        {
+            "name": "Mens Ripcurl wetsuit",
+            "price": 85,
+            "category": "Wetsuits",
+            "ownerName": "Kyle Rubencroft",
+            "ownerEmail": "kyle.rubencroft@gmai.com",
+            "ownerPhone": "123-456-7890",
+            "description": "3:2 perfect for kiteboarding or surfing, lots of mobility. Good summer wetsuit",
+            "photoUrl": "wetsuit4.jpg"
+        },
+        {
+            "name": "Surfing wetsuit",
+            "price": 50,
+            "category": "Wetsuits",
+            "ownerName": "Ryan Mitchell",
+            "ownerEmail": "ryan.mitchell@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "3:4 wetsuit used in New England during winter. No attached hood.",
+            "photoUrl": "wetsuit5.jpg"
+        },
+        {
+            "name": "Scuba Diving Wetsuit Mens SMALL",
+            "price": 89,
+            "category": "Wetsuits",
+            "ownerName": "Samuel Reynolds",
+            "ownerEmail": "samuel.reynolds@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Scuba diving wetsuit worn max 5 times. I don't need it anymore, but great deal especially for someone looking to buy their first scuba wetsuit!",
+            "photoUrl": "wetsuit6.jpg"
+        },
+        {
+            "name": "5:4 Winter Wetsuit with hood",
+            "price": 100,
+            "category": "Wetsuits",
+            "ownerName": "Daniel Bennett",
+            "ownerEmail": "daniel.bennett@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Winter wetsuit will keep you warm thorughout the winter months. Hood included.",
+            "photoUrl": "wetsuit7.jpg"
+        },
+        {
+            "name": "3:2 Wetsuit Large",
+            "price": 79,
+            "category": "Wetsuits",
+            "ownerName": "Matthew Harris",
+            "ownerEmail": "matthew.harris@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Summer wetsuit, can be used for surfing, kiteboarding or any number of other watersports",
+            "photoUrl": "wetsuit8.jpg"
+        },
+        {
+            "name": "Winter Wetsuit 5:4 with hood",
+            "price": 175,
+            "category": "Wetsuits",
+            "ownerName": "Henry Stewart",
+            "ownerEmail": "henry.stewart@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Selling wetsuit with hood for $100, boots and gloves $75. $175 for both",
+            "photoUrl": "wetsuit9.jpg"
+        },
+        {
+            "name": "Womens Wetsuit MEDIUM",
+            "price": 85,
+            "category": "Wetsuits",
+            "ownerName": "Zoe Hall",
+            "ownerEmail": "zoe.hall@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "3:2 summer wetsuit. Never used, perfect condition.",
+            "photoUrl": "wetsuit10.jpg"
+        },
+        {
+            "name": "2+1 Fins ",
+            "price": 20,
+            "category": "Accessories",
+            "ownerName": "Grace Reed",
+            "ownerEmail": "grace.reed@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "2+1 fin set up. Perfect for midlength board",
+            "photoUrl": "accessories1.jpg"
+        },
+        {
+            "name": "Scuba Fins",
+            "price": 35,
+            "category": "Accessories",
+            "ownerName": "George Bronson",
+            "ownerEmail": "george.bronson@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Mens size 11. Good condition, no signs of wear",
+            "photoUrl": "accessories2.jpg"
+        },
+        {
+            "name": "True Ames 9\" Single Fin",
+            "price": 30,
+            "category": "Accessories",
+            "ownerName": "Nico Cohen",
+            "ownerEmail": "nico.cohen@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "9\" Single fin. Super flexible",
+            "photoUrl": "accessories3.jpg"
+        },
+        {
+            "name": "Snorkel Mask",
+            "price": 25,
+            "category": "Accessories",
+            "ownerName": "John Kempner",
+            "ownerEmail": "john.kempner",
+            "ownerPhone": "123-456-7890",
+            "description": "Snorkel & mask. No cracks, seal is tight and glass is clear",
+            "photoUrl": "accessories4.jpg"
+        },
+        {
+                "name": "Underwater Camera Housing",
+                "price": 80,
+                "category": "Accessories",
+                "ownerName": "Devon Santos",
+                "ownerEmail": "devon.santos@gmail.com",
+                "ownerPhone": "123-456-7890",
+                "description": "Watertight housing for Canon EOS 5D",
+                "photoUrl": "accessories5.jpg"
+        },
+        {
+            "name": "GoPro Hero 8",
+            "price": 120,
+            "category": "Accessories",
+            "ownerName": "Nick Anderson",
+            "ownerEmail": "nick.anderson@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "GoPro Hero 8 works perfectly. Minor scrapes on casing, but lens is clear from scratches. SD card NOT included",
+            "photoUrl": "accessories6.jpg"
+        },
+        {
+            "name": "Watersports Lifejacket",
+            "price": 25,
+            "category": "Accessories",
+            "ownerName": "Brad Crawford",
+            "ownerEmail": "brad.crawford@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Adult lifejacket for lake sports like waterskiing or wakesurfing",
+            "photoUrl": "accessories7.jpg"
+        },
+        {
+            "name": "Kayak Paddle",
+            "price": 40,
+            "category": "Accessories",
+            "ownerName": "Lindsay Block",
+            "ownerEmail": "lindsay.block@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Selling fethered paddle for kayak. Minimal scratches on blade.",
+            "photoUrl": "accessories8.jpg"
+        },
+        {
+            "name": "Children's Goggles",
+            "price": 10,
+            "category": "Accessories",
+            "ownerName": "Lucy Smith",
+            "ownerEmail": "lucy.smith@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Unused children's swimming goggles",
+            "photoUrl": "accessories9.jpg"
+        },
+        {
+            "name": "Waterproof Watch",
+            "price": 45,
+            "category": "Accessories",
+            "ownerName": "Brett Lowel",
+            "ownerEmail": "brett.lowel@gmail.com",
+            "ownerPhone": "123-456-7890",
+            "description": "Waterproof watch up to 100m",
+            "photoUrl": "accessories10.jpg"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+body {margin: auto;}
+.header {position: sticky; background-color: black; height: 110px;
+        padding-top: 10px;}
+.header p {display: inline; margin-top: 0px;}
+.header p a {text-decoration: none; color: #59CBE7; font-size: 70px; 
+                padding-left: 15px; padding-bottom: 10px}
+
+.logo {float: left; height: 100px; width: 100px;
+        background-size: cover;}
+
+.nav {float: right; margin-top: auto; margin-bottom: auto; margin-right: 10px;}
+.nav li {display: inline-block; padding: 10px;}
+.nav li a {text-decoration: none; color: white; font-size: 25px;}
+.nav li:hover {background-color: white;}
+.nav li:hover a {color: black;}
