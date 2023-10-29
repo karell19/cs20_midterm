@@ -4,6 +4,9 @@
         <title>Second Wave Supply Company</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,8 +24,39 @@
         </ul>
 </div>
 
-<div>
-        <a href="product.html">Product Link</a>
+<div class="listText">
+        <h1 class="listHeader">Welcome!</h1>
+        <div class="listBody">Have gear to sell? Looking to update your quiver?<br/>
+                Post your goods and earn some cash!
+        </div>
+</div>
+<div class="listForm">
+        <h1 class="listFormHeader">Post a listing!</h1>
+        <form class="listFormContent">
+                First Name: <input type="text" action="#" size="30"><br/>
+                Last Name: <input type="text" action="#" size="30"><br/>
+                Email: <input type="text" action="#" size="50"><br/>
+                Product Name: <input type="text" action="#" size="50"><br/>
+                Product Description: <textarea cols="60" rows="5"></textarea><br/>
+                Price: $<input type="number" action="#" size="50"><br/>
+                Categories: 
+                        <input type="checkbox" id="boardsBoats" name="boardsBoats">
+                        <label for="boardsBoats">Boards & Boats</label>
+                        <input type="checkbox" id="wetsuit" name="wetsuit">
+                        <label for="wetsuit">Wetsuit</label> 
+                        <input type="checkbox" id="Accessory" name="Accessory">
+                        <label for="Accessory">Accessory</label><br/>
+                <input type="submit" class="submitButton" onclick="confirmation()">
+
+<script>
+        function confirmation() {
+                alert("Thank you for submitting a listing! We will review it \
+                        and it will be live on the site within 24 hours.")
+        }
+</script>
+
+
+        </form>
 </div>
 
 </body>

@@ -6,12 +6,12 @@
     width: 90%;
     height: 100%;
     background-color: #a5c5de;
+    font-family: 'Lato', sans-serif;
 }
 #product_img {
     width: 800px;
     height: 800px;
     float: left;
-    /* border: 1px solid grey; */
     text-align: center;
     background-color: white;
     margin-right: 2%;
@@ -20,24 +20,55 @@
 #product_img img {
     max-height: 800px;
     max-width: 800px;
-    /* margin: 0 auto; */
     width: 100%;
     height: 100%;
 }
+#product_img img:hover {
+    text-align: center;
+    transform:scale(1.05);
+    border-radius: 15px;
+}
 #product_name {
-    /* padding-left: 200px; */
-    /* text-align: ce; */
-    font-size: 35px;
+    font-size: 50px;
     font-weight: bold;
-    /* background-color:; */
 }
 #product_price {
-    /* width: 40%; */
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
 }
-#product_desc {
-    font-size: 20px;
+#product_category {
+    font-size: 25px;
     font-style: italic;
-    /* flex: 2; */
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+#product_ownerName {
+    margin-top: 10px;
+    font-size: 30px;
+}
+#product_ownerEmail {
+    font-size: 30px;
+}
+#product_ownerEmail a {
+    color: #2f6f9b;
+}
+#product_ownerEmail a:hover {
+    font-size: 30px;
+    color: black;
+}
+#product_phone {
+    font-size: 30px;
+}
+#product_desc {
+    font-size: 30px;
+    padding: 5%;
+    width: 90%;
+    background-color: #d8e2ed;
+    font-size: px;
+    float: left;
+    border-radius: 15px;
+    border: 10px solid #5081a4;
+}
+#product_desc:hover {
+    background-color: #59cbe7; 
 }

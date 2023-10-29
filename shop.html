@@ -1,9 +1,108 @@
 <html>
 <head>
-        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Second Wave Supply Company</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <style type="text/css">
+            body {
+                background-color: #a5c5de;
+                position: relative;
+            }
+            .banner {
+                width: 100%;
+                height: auto;
+            }
+            .shopContainer {
+                text-align: center;
+            }
+            .categoryContainer {
+                width: 75%;
+                text-align: left;
+                margin: 100px auto;
+            }
+            .category {
+                font-size: 36px;
+            }
+            .products {
+                background-color: #d8e2ed;
+                overflow: auto;
+                white-space: nowrap;
+                padding: 30px;
+                margin: auto;
+                margin-top: 50px;
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+            .products::-webkit-scrollbar {
+                display: none;
+            }
+            .product {
+                display: inline-block;
+                margin: 10px 20px;
+                text-decoration: none;
+                color: inherit;
+            }
+            .productImage {
+                width: 225px;
+                height: 225px;
+                outline: 1px solid #000;
+            }
+            .productInfo {
+                margin-top: 5px;
+                margin-left: 5px;
+            }
+            .name {
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 3px;
+            }
+            .price {
+                font-size: 16px;
+            }
+            .product:hover .name {
+                text-decoration: underline;
+            }
+            @media (max-width: 900px) {
+                .banner {
+                    height: 300px !important;
+                    object-fit: cover !important;
+                }
+                h1 {
+                    font-size: 56px !important;
+                }
+                h2 {
+                    font-size: 36px !important;
+                }
+                .categoryContainer {
+                    width: 95% !important;
+                }
+                .category {
+                    font-size: 48px !important;
+                }
+                .products {
+                    padding: 15px !important;
+                }
+                .product {
+                    margin: 5px 10px !important;
+                }
+                .productImage {
+                    width: 150px !important;
+                    height: 150px !important;
+                }
+                .productInfo {
+                    margin-top: 10px !important;
+                    margin-left: 10px !important;
+                }
+                .name {
+                    font-size: 18px !important;
+                    margin-bottom: 5px !important;
+                }
+                .price {
+                    font-size: 16px !important;
+                }
+            }
+        </style>
 </head>
 
 <body>
@@ -21,8 +120,12 @@
         </ul>
 </div>
 
-<div>
-        SHOP
+<img class="banner" src="images/shopBanner.jpg"></img>
+
+<div class="shopContainer">
+    <h1>Resale Shop</h1>
+    <h2>Explore the many products available for purchase below</h2>
+    <script src="shop.js"></script>
 </div>
 
 </body>

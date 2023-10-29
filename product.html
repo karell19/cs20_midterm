@@ -25,26 +25,36 @@
     <div id="product_img"></div>
     <div id="product_name"></div>
     <div id="product_price"></div>
+    <div id="product_category"></div>
+    <div id="product_ownerName"></div>
+    <div id="product_ownerEmail"></div>
+    <div id="product_phone"></div>
     <div id="product_desc"></div>
-    <div id="add_cart"><input type=submit value="Add to Cart"></div>
-    <div id="add_cart"><input type=submit value="Add to Wishlist"></div>
     <script>
         $(document).ready(() => {
             const urlParams = new URLSearchParams(window.location.search);
             const productName = urlParams.get('product');
-            $.get("products.json", (data) => {
+            $.get("https://karell19.github.io/cs20_midterm/products.json", (data) => {
+//file:///Users/kevin/Documents/cs20/cs20_midterm/product.html?product=Ocean%20Kayak%20Tetra
                 let product = data.products.filter((product => product.name == productName))[0];
-                let name = product.name;
-                console.log(name);
+                document.getElementById("product_name").innerHTML = product.name;
+                document.getElementById("product_price").innerHTML = "$" + product.price + ".00";
+                document.getElementById("product_category").innerHTML = product.category;
+
+                let email_link = document.createElement("a");
+                email_link.href = "mailto:" + product.ownerEmail;
+                email_link.innerHTML = product.ownerEmail;
+                document.getElementById("product_ownerName").innerHTML = "Posted by: " + product.ownerName;
+                document.getElementById("product_ownerEmail").innerHTML = "E-mail: ";
+                document.getElementById("product_ownerEmail").appendChild(email_link);
+                document.getElementById("product_phone").innerHTML = "Phone-Number: " + product.ownerPhone;
+                document.getElementById("product_desc").innerHTML = "\"" + product.description + "\"";
+
+                let new_img = document.createElement("img");
+                new_img.src = "images/" + product.photoUrl;
+                document.getElementById("product_img").appendChild(new_img);
             })
         })
-
-        let new_img = document.createElement("img");
-        new_img.src = "images/surfboard.png";
-        document.getElementById("product_img").appendChild(new_img);
-        document.getElementById("product_name").innerHTML = "Surfboard";
-        document.getElementById("product_price").innerHTML = "$1000.00";
-        document.getElementById("product_desc").innerHTML = "Are you ready to catch some epic waves and ride the ocean like a pro? Look no further! We have the perfect surfborad for you--an outstanding piece of surfcraft in pristine condition, ready to delvier unparalleled performance on thwe water.";
     </script>
 </div>
 

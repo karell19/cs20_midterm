@@ -1,6 +1,6 @@
-body {margin: auto;}
-.header {position: sticky; background-color: black; height: 110px;
-        padding-top: 10px;}
+body {margin: auto; background-color: #A5C5DE;}
+.header {position: sticky; top: 0; background-color: black; height: 110px;
+        padding-top: 10px; z-index: 2;}
 .header p {display: inline; margin-top: 0px;}
 .header p a {text-decoration: none; color: #59CBE7; font-size: 70px; 
                 padding-left: 15px; padding-bottom: 10px}
@@ -13,3 +13,66 @@ body {margin: auto;}
 .nav li a {text-decoration: none; color: white; font-size: 25px;}
 .nav li:hover {background-color: white;}
 .nav li:hover a {color: black;}
+
+
+
+ 
+
+/* Home style */
+
+
+
+
+.banner {width: 100%; height: 90%;
+        background-image:url(images/waveBanner.jpg); 
+        background-size: cover; background-position: 25% 90%}
+.bannerText {position: absolute; top: 50%; left: 50%; 
+        transform: translate(-50%, -50%); color: white;
+        font-family: 'Lato', sans-serif; font-size: 60px; 
+        background-color: #53575893; padding: 20px; border-radius: 15px}
+
+.intro {display: block; font-family: 'Lato', sans-serif; font-size: 60px; 
+        text-align: center; background-color: #b4bdbf; margin: 20px; 
+        border-radius: 10px; border: 1px black solid;}
+.introBody{font-family: 'Lato', sans-serif; font-size: 25px; 
+        line-height: 2; margin-left: 3%; margin-right:3%;}
+
+.homeContent1 {margin-left: 5%; width: 50%;}
+.homeContent2 {float: right; margin-right: 5%; width:50%;}
+.homeHeader1 {float: left; font-size: 50px; font-family: 'Lato', sans-serif;
+        text-align: center;}
+.homeHeader2 {float: right; font-size: 50px; font-family: 'Lato', sans-serif;}
+.homeBody1 {float: left; font-family: 'Lato', sans-serif; font-size: 25px; 
+        line-height: 2;}
+.homeBody2 {float: right; font-family: 'Lato', sans-serif; font-size: 25px; 
+        line-height: 2;} 
+
+.usedBoards{display: inline-block; margin-left: 5%; margin-top: 10px; 
+        width:40%;}
+.imageHomePage1 {width: 80%;}
+.imageHomePage2 {width: 80%;}
+
+.infoBoard{font-size: 50px; font-family: 'Lato', sans-serif;
+        text-align: center; border-top: 10px solid black; 
+        margin-left: 5%; margin-right: 5%;}
+
+.infoTile {margin-left: 5%; margin-right: 5%; font-family: 'Lato', sans-serif;}
+.infoTile td {background-color: #59CBE7; border: 2px solid black; 
+        border-radius:10px; padding: 10px; text-align: center;}
+.infoTile td:hover {background-color: #a1dae8;}
+
+/* Listing style */
+.listText {float: left; margin-left: 10%; 
+                margin-top: 100px; width: 35%; min-width: 300px;}
+.listHeader {font-size: 50px; font-family: 'Lato', sans-serif;}
+.listBody {font-family: 'Lato', sans-serif; font-size: 25px;
+                line-height: 2;}
+.listForm {line-height: 2; float: right; margin-left: 20px; 
+                margin-right: 10%; margin-top: 100px;
+                width: 40%; max-width: 700px; min-width: 600px; height: auto;
+                font-family: 'Lato', sans-serif; background-color: #eaecee;}
+.listFormHeader {text-align: center; font-size: 25px;}
+.listFormContent {margin-left: 10%}
+input{margin-left: 10px}
+.submitButton {width: 500px; border-radius: 30px;}
+.submitButton:hover {background-color: #59CBE7;}
